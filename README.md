@@ -13,7 +13,7 @@ Iniciamos con la serie de videos **Neural Networks: Zero to Hero** de Andrej Kar
 
 | Semana | Tema | Duración | Qué aprendemos |
 |:------:|------|:--------:|----------------|
-| 1 | micrograd | 2h25m | Backpropagation y cómo se entrena una red neuronal |
+| 1 | [micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=2&t=2s) | 2h25m | Backpropagation y cómo se entrena una red neuronal |
 | 2 | makemore (bigramas) | 1h57m | Modelos de lenguaje por caracteres y `torch.Tensor` |
 | 3 | makemore parte 2: MLP | 1h15m | Perceptrón multicapa, hiperparámetros y splits de datos |
 | 4 | makemore parte 3: activaciones y BatchNorm | 1h55m | Diagnóstico de redes profundas y BatchNorm |
