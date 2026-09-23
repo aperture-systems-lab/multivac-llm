@@ -1,0 +1,15 @@
+# Entorno
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos y modelos pesados
+data/
+*.pt
+*.pth
+*.bin
+*.safetensors
+log/
