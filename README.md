@@ -24,6 +24,19 @@ Iniciamos con la serie de videos **Neural Networks: Zero to Hero** de Andrej Kar
 | 9 | Let's reproduce GPT-2 (124M), parte 1 | 4h01m (total) | Implementación de GPT-2 y carga de sus pesos originales |
 | 10 | Let's reproduce GPT-2 (124M), parte 2 | | Entrenamiento en GPU, optimización y evaluación del modelo |
 
+## Ejercicios
+
+Un solo notebook por semana, dentro de la carpeta de esa semana y con tu usuario de GitHub como nombre:
+
+```
+semana-XX-<tema>/<tu-usuario>.ipynb
+```
+
+- `<tu-usuario>`: tu usuario de GitHub (`github.com/JeroHoyos` → `JeroHoyos`).
+- Dentro del notebook: el ejercicio de la semana resuelto.
+
+Ejemplo: `semana-01-micrograd/JeroHoyos.ipynb`
+
 ## Requisitos
 
 - [Python ≥ 3.13](https://www.python.org)
@@ -32,5 +45,6 @@ Iniciamos con la serie de videos **Neural Networks: Zero to Hero** de Andrej Kar
 ## Uso
 
 ```bash
-uv sync                                                        # instalar su entorno
+# instalar entorno
+uv sync                                                       
 ```
