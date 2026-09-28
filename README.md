@@ -1,8 +1,8 @@
-# Multivac LLM
+# Seminario HPC en LLMs
 
 Proyecto del **Semillero Aperture** para la competencia de proyectos.
 
-**Objetivo:** construir un modelo de lenguaje tipo GPT desde cero, en código.
+**Objetivo:** construir desde cero, en código, un modelo de lenguaje tipo GPT llamado **Multivac**.
 
 ## Punto de partida
 
@@ -48,3 +48,11 @@ Ejemplo: `semana-01-micrograd/JeroHoyos.ipynb`
 # instalar entorno
 uv sync                                                       
 ```
+
+## Material extra
+
+- [Components of a Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent) — Sebastian Raschka explica las piezas que forman un agente de programación (como Claude Code o Codex) construido alrededor de un LLM.
+- [Coding the KV Cache in LLMs](https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms) — Sebastian Raschka implementa desde cero el KV cache, la técnica que acelera la generación de texto reutilizando las claves y valores de atención ya calculados.
+- [AI inference is obviously profitable](https://www.seangoedecke.com/ai-inference-is-obviously-profitable/) — Sean Goedecke estima con números cuánto cuesta servir un LLM (GPUs, energía, tokens) y argumenta que la inferencia es rentable, aunque entrenar modelos nuevos no lo sea.
+- [Classical Foundations of Artificial Neural Networks](https://bnaskrecki.faculty.wmi.amu.edu.pl/nnets/_build/html/intro.html) — Libro interactivo de Bartosz Naskręcki que recorre la historia y la matemática de las redes neuronales, desde la neurona de McCulloch-Pitts hasta los Transformers y GPT, con código en Python.
+
